@@ -12,7 +12,7 @@ namespace eCommerce.API.Repositories
         }
 
         public Usuario Get(int id)
-        {
+        { 
             return _db.Find(x => x.Id == id)!;
         }
 
